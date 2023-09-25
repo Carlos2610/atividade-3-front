@@ -115,14 +115,3 @@ form button:hover{
 .btn:hover{
     border-radius: 16px;
 }
-
-
-
-li {
-	display: inline-block; margin: 0 10px;
-}
-
-a {
-	color: #fff;
-	text-decoration: none;
-}
