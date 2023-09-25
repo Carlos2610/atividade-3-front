@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>atividade-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+        
+
+</head>
+
+<body >
+    <!--navegação inicio-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black position-fixed col-12" style="z-index: 999; " >
+        <div class="container-fluid col-11 m-auto" style="">
+            <a class="navbar-brand" href="#">Anderson Estofados</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            produtos
+                        </a>
+                        <ul class="dropdown-menu navbar-dark" >
+                            <li><a class="dropdown-item" href="#cabeceiras">Cabeceiras</a></li>
+                            <li><a class="dropdown-item" href="#cadeiras">Cadeiras e Poltronas</a></li>
+                            <li>
+                            </li>
+                            <li><a class="dropdown-item" href="#sofas">Sofás</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forms.html">contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navegação fim-->
+    
+    <br>
+    <div>
+        <div id="carouselExampleIndicators" class="carousel slide ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/WhatsApp Image 2023-09-24 at 11.37.24.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/WhatsApp Image 2023-09-24 at 11.37.29 (1).jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/WhatsApp Image 2023-09-24 at 11.37.28 (1).jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="card-group col-11 m-auto" >
+        <div class="card">
+            <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.37.29.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body" >
+                <h5 class="card-title" id="cabeceiras">cabeceiras</h5>
+                <p class="card-text">Cabeceiras feitas sob medida com base em sua escolha de tecido, modelo e designe
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ver Mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">cabeceiras</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!--inicio do carrossel-->
+                                    <div id="carouselExample" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.35.24.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.37.29.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.43.58 (1).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.43.59 (1).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.43.59 (2).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cabeceiras/WhatsApp Image 2023-09-24 at 11.43.59.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!--fim do carrossel-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">fechar</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagens/imagens-cards/card-cadeiras/WhatsApp Image 2023-09-24 at 11.37.28 (1).jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" id="cadeiras">cadeiras</h5>
+                <p class="card-text">caderas feitas sob medidas, e também reformamos com base em sua escolha.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Ver Mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">cadeiras</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!--inicio do carrossel-->
+                                    <div id="carouselExampleFade" class="carousel slide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="imagens/imagens-cards/card-cadeiras/WhatsApp Image 2023-09-24 at 11.37.28 (1).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cadeiras/WhatsApp Image 2023-09-24 at 11.37.32 (1).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-cadeiras/WhatsApp Image 2023-09-24 at 11.37.33 (1).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!--fim do carrossel-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.28 (2).jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" id="sofas">sofás</h5>
+                <p class="card-text">reformas de sofás de acordo com a sua escolha, e caso queira também fazemos
+                    modificações personalizadas.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+                        Ver Mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">sofás</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!--inicio do carrossel-->>
+                                    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.28 (2).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.28.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.29 (2).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.30 (2).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.32 (2).jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="imagens/imagens-cards/card-sofas/WhatsApp Image 2023-09-24 at 11.37.32.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!--fim do carrossel-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+      
+
+            <footer style="background-color: #333; color: #fff; padding: 20px;
+            text-align: center; margin-top: 50px;">
+                <p>&copy; 2023 - Todos os direitos reservados</p>
+                <nav>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="display: inline-block; margin: 0 10px;"><a href="#" style="color: #fff; text-decoration: none;">Termos de uso</a></li>
+                        <li style="display: inline-block; margin: 0 10px;"><a href="#" style="color: #fff; text-decoration: none;">Política de privacidade</a></li>
+                        <li style="display: inline-block; margin: 0 10px;"><a href="#" style="color: #fff; text-decoration: none;">Sobre nós</a></li>
+                        <li style="display: inline-block; margin: 0 10px;"><a href="forms.html" style="color: #fff; text-decoration: none;">Contato</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        
+        
+</body>
+
+</html>
